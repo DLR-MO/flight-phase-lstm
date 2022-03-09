@@ -1,0 +1,13 @@
+.remote_folder
+data/preprocessed/
+data/xplane_raw/
+data/datasets/
+results/logs/
+results/csvs/
+results/predicted_labels
+results/models/*
+!results/models/net_c160_f7_w0.70.80.1_hu16_d2_lr0.01_bs16_a0_k100_t2.pt
+results/figs/*
+!results/figs/net_c160_f7_w0.70.80.1_hu16_d2_lr0.01_bs16_a0_k100_t2_0.png
+**/temp/
+**/__pycache__/
