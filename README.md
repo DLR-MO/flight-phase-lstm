@@ -73,3 +73,20 @@ for details.
 <a href="https://github.com/EmyArts-DLR">Emy Arts</a>
 
 <a href="https://github.com/AlexanderKamtsiuris">Alexander Kamtsiuris</a>
+
+## Reference
+This code is part of the publication "Trajectory based Flight Phase Identification with Machine Learning for Digital Twins".
+
+If you use this repository for your research please reference:
+
+Arts, E.; Kamtsiuris, A.; et al. (2022): Trajectory based Flight Phase Identification with Machine Learning for Digital Twins. Deutsche Gesellschaft für Luft- und Raumfahrt - Lilienthal-Oberth e.V.. https://doi.org/10.25967/550191
+
+@article{Arts.2021,
+ author = {Arts, E. and Kamtsiuris, A. and Meyer, H. and Raddatz, F. and Peters, A. and Wermter, S.},
+ date = {2021},
+ title = {Trajectory based Flight Phase Identification with Machine Learning for Digital Twins},
+ publisher = {{Deutsche Gesellschaft f{\"u}r Luft- und Raumfahrt - Lilienthal-Oberth e.V}},
+ doi = {10.25967/550191}
+}
+
+
