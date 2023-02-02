@@ -1,0 +1,45 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: ADS-B Flight Phase Identification
+message: If you use this software, please cite both the article from preferred-citation and the software itself.
+type: software
+authors:
+  - given-names: Emy
+    family-names: Arts
+    email: emy.arts@dlr.de
+    affiliation: DLR
+  - given-names: Alexander Athanasios
+    family-names: Kamtsiuris
+    email: alexander.kamtsiuris@dlr.de
+    affiliation: DLR
+repository-code: 'https://github.com/DLR-MO/flight-phase-lstm'
+url: 'https://github.com'
+abstract: >-
+  LSTM trained on X-plane simulated flight data of an Boeing
+  737 to identify flight phases on ADS-B data from the
+  OpenSky network.
+keywords:
+  - LSTM
+  - Artificial Intelligence
+  - Aircraft
+  - Flight Phases
+license: MIT
+commit: 46139df665b264f8f9ecc68c956a29565611e52a
+version: '2022-09-08'
+date-released: '2022-09-08'
+title: My Research Software
+preferred-citation:
+  authors:
+    - family-names: Arts
+      given-names: Emy
+    - family-names: Kamtsiuris
+      given-names: Alexander Athanasios
+    - family-names: Meyer
+      given-names: Hendrik
+    - family-names: Raddatz
+      given-names: Florian
+  title: Trajectory based Flight Phase Identification with Machine Learning for Digital Twins
+  type: conference article
+
