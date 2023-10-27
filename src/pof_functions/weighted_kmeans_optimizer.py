@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 German Aerospace Center
+#
+# SPDX-License-Identifier: MIT
+
 '''
 Author Emy Arts (emy.arts@dlr.de)
 
