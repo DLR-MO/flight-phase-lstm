@@ -54,7 +54,9 @@ This stores the images of the labeled flights together with the CSV files that i
 
 ## Training a model
 
-If one wishes to train a new model on their own FDR data a dataset can be created:
+The data used to train this model can be found under the following <a href="https://zenodo.org/records/11126713">link</a>.
+
+If one wishes to train a new model either on their own FDR data or on the provided data a dataset can be created using the following steps:
 - Use the ```find_flight_phases(pandas_df)``` function in src/pof_functions/flight_phase_finder_core.py to label each flight.\
 (For X-plane data  ```python src/pof_functions/flight_phase_finder_xplane.py``` takes raw x-Plane txt log files from the data/xplane_raw folder and separates, labels and stores them.)
 - Store trajectory data seperate from its labels respectively in data/preprocessed/trajectories_train and data/preprocessed/labels_train
@@ -79,7 +81,7 @@ This code is part of the publication "Trajectory based Flight Phase Identificati
 
 If you use this repository for your research please reference:
 
-Arts, E.; Kamtsiuris, A.; et al. (2022): Trajectory based Flight Phase Identification with Machine Learning for Digital Twins. Deutsche Gesellschaft für Luft- und Raumfahrt - Lilienthal-Oberth e.V.. https://doi.org/10.25967/550191
+Arts, E.; Kamtsiuris, A.; et al. (2022): Trajectory based Flight Phase Identification with Machine Learning for Digital Twins. Deutsche Gesellschaft für Luft- und Raumfahrt - Lilienthal-Oberth e.V.. https://doi.org/10.25967/550191       
 
 ```
 @article{Arts.2021,
